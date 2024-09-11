@@ -9,16 +9,16 @@ body {
     background-size: 100% 740px;
 }
 h1 {
-    color: white;
+    color: aqua;
 }
 h1:hover {
-    color: aqua;
     cursor: pointer;
 }
 .contain {
     width: 300px;
     height: 400px;
-    background-color: black;
+    background-color: transparent;
+    backdrop-filter: blur(40px);
     text-align: center;
     color: white;
     margin-left: 36%;
